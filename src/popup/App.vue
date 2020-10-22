@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    Loading...
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
+  created () {
+    chrome.cookies.set({
+      name: 'ASP.NET_SessionId',
+      url: 'https://t.2c2p.com/RedirectV3/Payment/Accept',
+      value: 'b3fxeyclp4hxtcunohlpak2y'
+    })
   }
 }
 </script>
