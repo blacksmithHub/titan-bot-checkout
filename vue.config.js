@@ -2,7 +2,6 @@ module.exports = {
   transpileDependencies: [
     'vuetify'
   ],
-
   pages: {
     popup: {
       template: 'public/browser-extension.html',
@@ -10,7 +9,6 @@ module.exports = {
       title: 'Popup'
     }
   },
-
   pluginOptions: {
     browserExtension: {
       componentOptions: {
