@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Titan Destroyer IO",
-  "description": "A Vue Browser Extension",
+  "description": "Titan22 Checkout Link",
   "default_locale": "en",
   "permissions": [
     "cookies",
