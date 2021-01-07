@@ -8,11 +8,14 @@
           dense
           hide-details
           autocomplete="off"
+          clearable
+          style="border: 1px solid #d85820"
         />
       </v-card-text>
 
       <v-card-actions>
         <v-btn
+          style="background-color: #d85820; color: white"
           type="submit"
           block
         >
